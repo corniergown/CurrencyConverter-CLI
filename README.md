@@ -27,7 +27,7 @@ yay -S jre jdk
 Clonamos el repositorio
 
 ```bash
-git clone <link>
-cd <name>
+git clone https://github.com/corniergown/CurrencyConverter-CLI.git
+cd CurrencyConverter-CLI
 ```
 
