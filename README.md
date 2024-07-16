@@ -7,22 +7,16 @@ Programa creado en java con el fin de resolver el challenge propuesto por el cur
 
 ## Paso 1
 
-Instalamos **OpenJDK 14** con el siguiente comando
+Instalamos **OpenJDK 21** con el siguiente comando
 
 ```bash
-sudo pacman -S jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src
+sudo pacman -S jdk21-openjdk
 ```
 
-### Paso 2
+posterorimente comprobamos la version de java usando el comando: `java -version` y de igual forma comprobamos que se nos haya instalado javac, lo podemos comprobar usando en mismo comando `javac -version`.
 
-Instalamos el administrador de paquetes **_yay_**  para poder descargar el **Oracle Java SE Development Kit**
 
-```bash
-sudo pacman -S yay
-yay -S jre jdk
-```
-
-## Paso 3
+## Paso 2
 
 Clonamos el repositorio
 
